@@ -21,4 +21,7 @@ public class Dog extends Animal {
         System.out.println(name + " Jamie");
     }
 
+    private void aw_aw() {
+        System.out.println("aw aw aw");
+    }
 }
