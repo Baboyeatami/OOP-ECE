@@ -9,6 +9,16 @@ package lecture;
  *
  * @author Jamie Eduardo Rosal <Jamiewertalmighty@gmail.com>
  */
-public class NewClass1 {
-    
+public class Dog extends Animal {
+
+    @Override
+    void PrintVoice() {
+        System.out.println(" aw aw aw ");
+    }
+
+    @Override
+    void PrintName(String name) {
+        System.out.println(name + " Jamie");
+    }
+
 }
