@@ -10,6 +10,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
+import lecture.Cat.Cat_woman;
 
 /**
  *
@@ -22,11 +23,11 @@ public class Lecture {
      */
     public static void main(String[] args) {
 
-        Dog whitey = new Dog();
+        Dog dog = new Dog();
 
-        whitey.PrintName("wow ");
+        Cat miming = new Cat();
 
-        whitey.PrintVoice();
+        miming.PrintArray(dog.generate_Array(10));
 
     }
 

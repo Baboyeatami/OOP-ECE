@@ -11,6 +11,8 @@ package lecture;
  */
 public class Dog extends Animal {
 
+    private int[] x;
+
     @Override
     void PrintVoice() {
         System.out.println(" aw aw aw ");
@@ -24,4 +26,25 @@ public class Dog extends Animal {
     private void aw_aw() {
         System.out.println("aw aw aw");
     }
+
+    int[] generate_Array(int size) {
+
+        x = new int[size];
+
+        for (int i = 0; i < size; i++) {
+            int a = (int) (Math.random() * 10);
+            x[i] = a;
+
+        }
+
+        return x;
+
+    }
+
+    void PrintArray() {
+        for (int i = 0; i < x.length; i++) {
+            System.out.println(x[i]);
+        }
+    }
+
 }
