@@ -23,11 +23,9 @@ public class Lecture {
      */
     public static void main(String[] args) {
 
-        Dog dog = new Dog();
+        Frame1 main = new Frame1();
 
-        Cat miming = new Cat();
-
-        miming.PrintArray(dog.generate_Array(10));
+        main.setVisible(true);
 
     }
 
