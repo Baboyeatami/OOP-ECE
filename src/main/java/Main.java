@@ -19,6 +19,7 @@ public class Main {
         System.out.println("Enter a value ");
 
         int a = input.nextInt();
+        int x = input.nextInt();
 
         switch (a) {
 
@@ -33,6 +34,7 @@ public class Main {
 
             case 2:
                 System.out.println("oh no! galing parin");
+                System.out.println("");
                 break;
 
             default:
